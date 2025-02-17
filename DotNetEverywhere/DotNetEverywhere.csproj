@@ -5,10 +5,10 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <RuntimeIdentifiers>
+		  win-x64;osx-x64;osx-arm64;linux-x64;linux-arm64
+	  </RuntimeIdentifiers>
+	  <DebugType>embedded</DebugType>
   </PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="newtonsoft.json" Version="13.0.3" />
-		<PackageReference Include="packt.csdotnet.sharedlibrary" Version="9.0.0" />
-	</ItemGroup>
 
 </Project>
